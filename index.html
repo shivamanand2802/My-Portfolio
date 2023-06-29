@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Shivam Anand</title>
+
+    <style>
+        body,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: "Montserrat", sans-serif
+        }
+
+        .grid img {
+            margin-bottom: 12px
+        }
+
+        /* Set the width of the sidebar to 120px */
+        .navbar {
+            width: 120px;
+            background: #222;
+        }
+
+        /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+        #main {
+            margin-left: 120px
+        }
+
+        /* Remove margins from "page content" on small screens */
+        @media only screen and (max-width: 600px) {
+            #main {
+                margin-left: 0
+            }
+        }
+    </style>
+
+</head>
+
+<body class="body">
+
+    <nav class="navbar">
+        <img src="./images/IMG_small_Shivam.png" style="width:100%">
+        <a href="#" class="navItem">
+            <i class="fa fa-home navIcon"></i>
+            <p>Home</p>
+        </a>
+        <a href="#about" class="navItem">
+            <i class="fa fa-user navIcon"></i>
+            <p>About</p>
+        </a>
+        <a href="#projects" class="navItem">
+            <i class="fa fa-eye navIcon"></i>
+            <p>Projects</p>
+        </a>
+        <a href="#contact" class="navItem">
+            <i class="fa fa-envelope navIcon"></i>
+            <p>Contact Me</p>
+        </a>
+    </nav>
+
+    <div class="navSmall">
+        <div class="navSmallItem">
+            <a href="#" class="navSmallButton">Home</a>
+            <a href="#about" class="navSmallButton">About</a>
+            <a href="#projects" class="navSmallButton">Projects</a>
+            <a href="#contact" class="navSmallButton">Contact Me</a>
+        </div>
+    </div>
+
+    <div class="main" id="main">
+        <header class="home" id="home">
+            <h1 class="name"><span class="nameSmall">I'm</span> Shivam Anand</h1>
+            <p>Programmer</p>
+            <img src="./images/IMG_Shivam.png" alt="boy" class="image" width="992" height="1108">
+        </header>
+
+        <div class="about" id="about">
+            <h2 class="aboutMe">About Me</h2>
+            <hr style="width:200px" class="hr">
+            <p>As you know now, my name is Shivam, and I am from Bihar. I completed my higher studies in Bihar, where I
+                pursued a BCA degree from M.L.T College.<br><br>If I had to describe myself in one word, it would be
+                dynamic as I accept challenges with a positive spirit, and I am always eager to learn.</p>
+            <h3 class="skills">My Skills</h3>
+            <p class="wide">Python</p>
+            <div class="white">
+                <div class="grey" style="height:28px;width:75%"></div>
+            </div>
+            <p class="wide">Django</p>
+            <div class="white">
+                <div class="grey" style="height:28px;width:60%"></div>
+            </div>
+            <p class="wide">Mysql</p>
+            <div class="white">
+                <div class="grey" style="height:28px;width:55%"></div>
+            </div>
+            <p class="wide">MongoDb</p>
+            <div class="white">
+                <div class="grey" style="height:28px;width:45%"></div>
+            </div>
+            <p class="wide">HTML</p>
+            <div class="white">
+                <div class="grey" style="height:28px;width:70%"></div>
+            </div>
+            <p class="wide">CSS</p>
+            <div class="white">
+                <div class="grey" style="height:28px;width:60%"></div>
+            </div>
+            <p class="wide">React</p>
+            <div class="white">
+                <div class="grey" style="height:28px;width:30%"></div>
+            </div>
+            <p class="wide">C</p>
+            <div class="white">
+                <div class="grey" style="height:28px;width:80%"></div>
+            </div>
+            <p class="wide">C++</p>
+            <div class="white">
+                <div class="grey" style="height:28px;width:70%"></div>
+            </div><br>
+
+            <button class="download">
+                <a href="./images/Shivam Anand - Resume (S).pdf"><i class="fa fa-download"></i> Download Resume</a>
+            </button>
+
+            <h3 class="project" id="projects">My Projects</h3>
+            <div class="grid" style="margin:0 -16px">
+                <div class="card">
+                    <ul class="details">
+                        <li class="heading">E-COMMERCE WEBSITE</li>
+                        <p style="min-height: 25vh;">A E-Commerce Website || Frontend integrated with Backend ||
+                            Frontend
+                            using HTML, CSS & JavaScript || Backend using Django (web framework), REST API, JWT Token &
+                            SQLite database (Default by Django)
+                        </p>
+                        <li class="projectLink">
+                            <button class="link"><a
+                                    href="https://github.com/shivamanand2802/E-Commerce-Website.git">Github
+                                    Link</a></button>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <ul class="details">
+                        <li class="heading">My Portfolio</li>
+                        <p style="min-height:25vh;">A portfolio is a way to document your professional journey and
+                            demonstrate your skills and abilities. It can be a collection of your work and
+                            accomplishments in either a physical or digital format.</p>
+                        <li class="projectLink">
+                            <button class="link"><a href="https://github.com/shivamanand2802/My-Portfolio.git">Github
+                                    Link</a></button>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <ul class="details">
+                        <li class="heading">WHOLESELLER SHOP MANAGEMENT</li>
+                        <p style="min-height:25vh;">A Wholesale Shop Management Project || Consumer Portal, Inventory
+                            Portal, Sales Portal || Integrated with MS Access (2003 edition) || VISUAL BASIC 6.0 || MS
+                            Access 2003
+                        </p>
+                        <li class="projectLink">
+                            <button class="link"><a
+                                    href="https://github.com/shivamanand2802/WHOLESELLER-SHOP-MANAGEMENT.git">Github
+                                    Link</a></button>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <ul class="details">
+                        <li class="heading">COLLEGE MANAGEMENT SYSTEM</li>
+                        <p style="min-height:25vh;">
+                            This College Management System project in C Language is a consoled based application created
+                            using c programming language. This system is a simple mini project and compiled in
+                            TurboC++ IDE.
+                        </p>
+                        <li class="projectLink">
+                            <button class="link"><a
+                                    href="https://github.com/shivamanand2802/College-Management-System.git">Github
+                                    Link</a></button>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+
+            <h3 class="works">What can I do...</h3>
+            <div>
+
+                <div class="test">
+                    <div class="image1"><img src="./images/software-development (1).png" alt="" class="work"
+                            style="width:80px">
+                    </div>
+                    <div>
+                        <h3><span class="workName">Software Development.</span></h3>
+                        <p>Software Development is the development of software for distinct purposes. For software
+                            development, there is a specific programming language like Java, Python, C/C++, etc. The
+                            entire process of software development isn't as simple as its definition, it's a complicated
+                            process.</p>
+                    </div>
+                </div>
+
+                <div class="test">
+                    <div class="image1"><img src="./images/app-development (1).png" alt="" class="work"
+                            style="width:80px"></div>
+                    <div>
+                        <h3><span class="workName">Web Development</span></h3>
+                        <p>Web development refers to the creating, building, and maintaining of websites. It includes
+                            aspects such as web design, web publishing, web programming, and database management. It is
+                            the creation of an application that works over the internet i.e. websites.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="test">
+                    <div class="image1"><img src="./images/artificial-intelligence (1).png" alt="" class="work"
+                            style="width:80px"></div>
+                    <div>
+                        <h3><span class="workName">AI / ML</span></h3>
+                        <p>AI and ML are related terms that describe technology that can process data and make
+                            predictions based on past experiences. ML generally requires less data than AI and produces
+                            more accurate results than AI, but this could change in the future as AI advances in
+                            accuracy.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="contact" id="contact">
+            <h2 class="contactMe">Contact Me</h2>
+            <hr style="width:200px" class="hr">
+
+            <div class="contactMedium">
+                <div class="add"><i class="fa fa-phone fa-fw contactDetails"></i>
+                    <a href="tel:+919128260751"> Phone: +91 9128260751</a>
+                </div><br>
+                <div class="add"><i class="fa fa-envelope fa-fw contactDetails"> </i>
+                    <a href="mailto:shivamanandsaharsa@gmail.com"> Email: shivamanandsaharsa@gmail.com</a>
+                </div><br>
+                <div class="add"><i class="fa fa-map-marker fa-fw contactDetails"></i>
+                    <p>
+                        Manas Nagar, Ward No. 20,<br>
+                        Near Saharsa Engineering College,<br>
+                        Saharsa, Bihar - 852201
+                    </p>
+                </div>
+
+            </div><br>
+
+        </div>
+
+        <footer class="footer">
+            <a href="https://wa.link/6vf5r0" class="fa fa-whatsapp footerItem"></a>
+            <a href="https://www.facebook.com/anandraj.2002?mibextid=ZbWKwL"
+                class="fa fa-facebook-official footerItem"></a>
+            <a href="https://instagram.com/shivamanand_28?igshid=NGExMmI2YTkyZg=="
+                class="fa fa-instagram footerItem"></a>
+            <a href="https://www.linkedin.com/in/shivam-anand-4a1b25264" class="fa fa-linkedin footerItem"></a>
+            <a href="https://github.com/shivamanand2802" class="fa fa-github footerItem"></a>
+            <p class="credit">Created by <a href="#about" target="_blank" class="creditName">Shivam Anand</a></p>
+        </footer>
+
+    </div>
+
+</body>
+
+</html>
